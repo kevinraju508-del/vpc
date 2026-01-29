@@ -1,6 +1,8 @@
 variable "cidr_block" {
   type = string
 }
+
 variable "vpc_name" {
-  type = string
+  type    = string
+  default = "my-vpc"
 }
